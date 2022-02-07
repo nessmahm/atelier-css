@@ -97,16 +97,21 @@ article
 display: flex;
 justify-content: space-between;
 }
-.im1,.im2,.im3,.im3
+.im2,.im4,.im3
 {
-    width: 200px;
-    height: 180px;
-    padding-right: 10px;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+.im1{
+	    padding-top: 30px;
 
 }
+.im4{
+	padding-top: 85px;
+	padding-left: 30px;
 
+}
 
 section .parg 
 {
@@ -140,4 +145,9 @@ footer
 { background:url("foot_bg.png")  repeat-x;
 width: 1272px;
 height: 220px;
+}
+.cube
+{
+	width: 10px;
+	height: 10px;
 }
