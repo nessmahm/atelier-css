@@ -1,0 +1,143 @@
+#img1
+{
+	z-index: 1;
+	width: 1272px;
+	left :0px
+}
+#img2
+{
+	z-index: 2;
+	position: absolute;
+	top: 62.5px;
+	left: 200px;
+	width: 900px;
+
+}
+#img3
+{
+	z-index: 3;
+	position: absolute;
+	top: 62.5px;
+	left: 198px;
+
+}
+nav
+{
+z-index: 3;
+position: absolute;
+top:  420px;
+left: 200px;
+width: 900px;
+
+}
+ul
+{  display: flex;
+	justify-content: space-between ;
+	align-items: stretch;
+	list-style-type: none;
+	background: #8A2B17;
+	height: 70px;
+	padding-left: 0px;
+
+
+}
+nav ul li
+{
+		padding-top: 25PX;
+		padding-left: 40px;
+		width: 200px;
+
+}
+nav ul li:hover
+{
+	background: url("rings.png") no-repeat bottom right, black;
+
+}
+
+nav ul li a
+{
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+    font-family: Georgia;
+
+}
+section
+{
+	margin-top: 490px;
+	margin-left: 200px;
+	display: flex;
+	width: 900px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+
+
+}
+article
+{
+	 width: 340px;
+	 margin-right:90px;
+}
+.fig1
+{
+ margin-right:10px;
+ justify-content: flex-end;
+
+}
+.fig4
+{
+	margin-right: 0px;
+}
+
+.fig2
+
+{ 
+display: flex;
+justify-content: space-between;
+}
+.im1,.im2,.im3,.im3
+{
+    width: 200px;
+    height: 180px;
+    padding-right: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+
+section .parg 
+{
+	padding-left: 350px;
+}
+.cl1
+{
+    margin-top: 20px;
+    font-family: Georgia;
+    font-size: 16PX;
+}
+
+H2
+{
+    color:#89210A;
+    font-weight: bold;
+
+}
+.cont
+{
+    font-weight: bold;
+    padding-top: 4px;
+    font-size: 15px;
+}
+.cont a
+{
+    color:#89210A;
+
+}
+footer
+{ background:url("foot_bg.png")  repeat-x;
+width: 1272px;
+height: 220px;
+}
