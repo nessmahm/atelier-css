@@ -21,7 +21,7 @@
 	left: 198px;
 
 }
-nav
+nav 
 {
 z-index: 3;
 position: absolute;
@@ -30,10 +30,9 @@ left: 200px;
 width: 900px;
 
 }
-ul
+nav ul
 {  display: flex;
 	justify-content: space-between ;
-	align-items: stretch;
 	list-style-type: none;
 	background: #8A2B17;
 	height: 70px;
@@ -63,6 +62,7 @@ nav ul li a
     font-family: Georgia;
 
 }
+
 section
 {
 	margin-top: 490px;
@@ -72,37 +72,29 @@ section
 	flex-wrap: wrap;
 	justify-content: flex-start;
 
-
-
 }
+
 article
 {
 	 width: 340px;
 	 margin-right:90px;
 }
+
 .fig1
 {
  margin-right:10px;
- justify-content: flex-end;
 
 }
-.fig4
-{
-	margin-right: 0px;
-}
 
-.fig2
 
-{ 
-display: flex;
-justify-content: space-between;
-}
 .im2,.im4,.im3
 {
     padding-left: 20px;
     padding-top: 30px;
+
     
 }
+
 .im1{
 	    padding-top: 30px;
 
@@ -113,23 +105,16 @@ justify-content: space-between;
 
 }
 
-section .parg 
-{
-	padding-left: 350px;
-}
-.cl1
-{
-    margin-top: 20px;
-    font-family: Georgia;
-    font-size: 16PX;
-}
 
-H2
+
+
+h2
 {
     color:#89210A;
     font-weight: bold;
 
 }
+
 .cont
 {
     font-weight: bold;
@@ -141,13 +126,9 @@ H2
     color:#89210A;
 
 }
+
 footer
 { background:url("foot_bg.png")  repeat-x;
 width: 1272px;
 height: 220px;
-}
-.cube
-{
-	width: 10px;
-	height: 10px;
 }
